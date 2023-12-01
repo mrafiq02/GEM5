@@ -142,4 +142,4 @@ m5.instantiate()
 
 print("Beginning simulation!")
 exit_event = m5.simulate()
-print("Exiting @ tick %i because %s" % (m5.curTick(), exit_event.getCause()))
+print("Exiting now @ tick %i because %s" % (m5.curTick(), exit_event.getCause()))
